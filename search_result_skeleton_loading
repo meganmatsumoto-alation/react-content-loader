@@ -1,0 +1,21 @@
+import React from "react"
+import ContentLoader from "react-content-loader" 
+
+const MyLoader = () => (
+  <ContentLoader 
+    speed={2}
+    width={696}
+    height={147}
+    viewBox="0 0 696 147"
+    backgroundColor="#f3f3f3"
+    foregroundColor="#ecebeb"
+  >
+    <rect x="48" y="24" rx="0" ry="0" width="389" height="24" /> 
+    <rect x="48" y="57" rx="0" ry="0" width="72" height="20" /> 
+    <rect x="129" y="57" rx="0" ry="0" width="254" height="20" /> 
+    <rect x="48" y="86" rx="0" ry="0" width="600" height="16" /> 
+    <rect x="48" y="1" rx="0" ry="0" width="482" height="16" /> 
+  </ContentLoader>
+)
+
+export default MyLoader
